@@ -1,0 +1,16 @@
+# Binaries & build outputs
+livelink-hub
+livelink-hub.exe
+livelink-hub-linux-*
+*.syso
+*.exe~
+
+# Runtime config, logs, certificates & recordings
+config.json
+*.log
+*.log.old
+*.crt
+*.key
+mediamtx_livelink.yml
+recordings/
+data/

@@ -1,0 +1,10 @@
+services:
+  livelink-hub:
+    build: .
+    container_name: livelink-hub
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./data:/data
+    environment:
+      - LIVELINK_WEB_ADDR=0.0.0.0:8790
